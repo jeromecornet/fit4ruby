@@ -170,6 +170,7 @@ module Fit4Ruby
         lap.check(index, self)
         # If we have heart rate zone records, there should be one for each
         # lap
+        print("Checking HR for lap #{index}")
         @heart_rate_zones[index].check(index) if @heart_rate_zones[index]
       end
 

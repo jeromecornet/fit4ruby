@@ -79,7 +79,7 @@ module Fit4Ruby
         end
         if @manufacturer == 'garmin'
           unless @garmin_product
-            Log.fatal 'device info record 0 must have a garman_product ' +
+            Log.fatal 'device info record 0 must have a garmin_product ' +
                       'field set'
           end
         else
